@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário de Contato</title>
+</head>
+<body>
+    <h1 style="background-color: #e74c3c; color: white; text-align: center;">Formulário de Contato</h1>
+    <form action="#" method="post">
+        <label for="nome">Nome e sobrenome:</label><br>
+        <input type="text" id="nome" name="nome"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="telefone">Telefone:</label><br>
+        <input type="tel" id="telefone" name="telefone" placeholder="(XX) XXXXX-XXXX"><br><br>
+
+        <label for="mensagem">Mensagem:</label><br>
+        <textarea id="mensagem" name="mensagem" rows="4"></textarea><br><br>
+
+        <label>Como prefere o nosso contato?</label><br>
+        <input type="radio" id="email_contato" name="contato" value="email">
+        <label for="email_contato">Email</label><br>
+        <input type="radio" id="telefone_contato" name="contato" value="telefone">
+        <label for="telefone_contato">Telefone</label><br>
+        <input type="radio" id="whatsapp_contato" name="contato" value="whatsapp">
+        <label for="whatsapp_contato">WhatsApp</label><br><br>
+
+        <label for="horario">Qual horário prefere ser atendido?</label><br>
+        <select id="horario" name="horario">
+            <option value="manha">Manhã</option>
+            <option value="tarde">Tarde</option>
+            <option value="noite">Noite</option>
+        </select><br><br>
+
+        <input type="checkbox" id="novidades" name="novidades">
+        <label for="novidades">Gostaria de receber nossas novidades por email?</label><br><br>
+
+        <button type="submit": style="background-color: #ff00ff; color: white; text-align: center; width: 1000px; height: 50px">Enviar formulário</button>
+    </form>
+
+    <h3>Horários de Atendimento</h3>
+    <table border="1">
+        <tr style="background-color: #ff00ff; color: white; text-align: center;">
+            <th>Dia</th>
+            <th>Horário</th>
+        </tr>
+        <tr>
+            <td>Segunda</td>
+            <td>8h - 20h</td>
+        </tr>
+        <tr>
+            <td>Terça</td>
+            <td>8h - 20h</td>
+        </tr>
+        <tr>
+            <td>Quarta</td>
+            <td>8h - 20h</td>
+        </tr>
+        <tr>
+            <td>Quinta</td>
+            <td>8h - 20h</td>
+        </tr>
+        <tr>
+            <td>Sexta</td>
+            <td>8h - 20h</td>
+        </tr>
+    </table>
+
+    <footer style="background-color: #ff00ff; color: white; text-align: center; margin-top: 40px;">
+        <p>Desenvolvido por Gustavo Almeida de Oliveira<p>
+    </footer>
+</body>
+</html>
