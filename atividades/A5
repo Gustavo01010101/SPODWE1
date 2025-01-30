@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resoluções CSS Diner</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f8f8f8;
+        }
+        h1 {
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #333;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Resoluções CSS Diner</h1>
+    <p>Lista de seletores usados para resolver os 26 desafios do <a href="https://laboratoria.github.io/css-diner/" target="_blank">CSS Diner</a>.</p>
+
+    <table>
+        <tr>
+            <th>Exercício</th>
+            <th>Seletor</th>
+        </tr>
+        <tr><td>1</td><td>plate</td></tr>
+        <tr><td>2</td><td>bento</td></tr>
+        <tr><td>3</td><td>#fancy</td></tr>
+        <tr><td>4</td><td>plate apple</td></tr>
+        <tr><td>5</td><td>#fancy pickle</td></tr>
+        <tr><td>6</td><td>.small</td></tr>
+        <tr><td>7</td><td>orange.small</td></tr>
+        <tr><td>8</td><td>bento orange.small</td></tr>
+        <tr><td>9</td><td>plate, bento</td></tr>
+        <tr><td>10</td><td>*</td></tr>
+        <tr><td>11</td><td>plate *</td></tr>
+        <tr><td>12</td><td>plate + apple</td></tr>
+        <tr><td>13</td><td>bento ~ pickle</td></tr>
+        <tr><td>14</td><td>plate > apple</td></tr>
+        <tr><td>15</td><td>orange:first-child</td></tr>
+        <tr><td>16</td><td>plate apple:only-child</td></tr>
+        <tr><td>17</td><td>plate apple:last-child</td></tr>
+        <tr><td>18</td><td>:nth-child(3)</td></tr>
+        <tr><td>19</td><td>:nth-last-child(3)</td></tr>
+        <tr><td>20</td><td>:first-of-type</td></tr>
+        <tr><td>21</td><td>:nth-of-type(even)</td></tr>
+        <tr><td>22</td><td>:nth-of-type(odd)</td></tr>
+        <tr><td>23</td><td>apple:only-of-type</td></tr>
+        <tr><td>24</td><td>apple:last-of-type</td></tr>
+        <tr><td>25</td><td>bento:empty</td></tr>
+        <tr><td>26</td><td>not(plate)</td></tr>
+    </table>
+
+</body>
+</html>
