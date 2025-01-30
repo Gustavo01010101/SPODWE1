@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apostila SEO - Introdução ao Search Engine Optimization</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 20px;
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        button {
+            background-color: #3498db;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #2980b9;
+        }
+        .references {
+            font-size: 14px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>📘 Apostila: Introdução ao SEO (Search Engine Optimization)</h1>
+
+        <h2>📌 O que é SEO?</h2>
+        <p>SEO (<em>Search Engine Optimization</em>) é o conjunto de técnicas usadas para melhorar o posicionamento de um site nos resultados dos motores de busca, como o Google. Seu objetivo é aumentar a visibilidade e atrair visitantes qualificados.</p>
+
+        <h2>🔍 Como os Motores de Busca Funcionam?</h2>
+        <p>Os mecanismos de busca utilizam robôs chamados <strong>crawlers</strong> para rastrear a web. O Google, por exemplo, usa o <strong>Googlebot</strong> para encontrar e indexar páginas, classificando-as conforme sua relevância.</p>
+
+        <h2>✅ Principais Fatores de SEO</h2>
+
+        <h3>1️⃣ SEO On-Page (Otimizações Internas)</h3>
+        <ul>
+            <li>Uso estratégico de <strong>palavras-chave</strong> no título, URL e conteúdo.</li>
+            <li>Criação de <strong>conteúdo relevante</strong> e bem estruturado.</li>
+            <li>Otimização de <strong>imagens</strong> com <em>alt text</em>.</li>
+        </ul>
+
+        <h3>2️⃣ SEO Off-Page (Fatores Externos)</h3>
+        <ul>
+            <li>Construção de <strong>backlinks</strong> de qualidade.</li>
+            <li>Compartilhamento em <strong>redes sociais</strong> para aumentar o alcance.</li>
+        </ul>
+
+        <h3>3️⃣ SEO Técnico</h3>
+        <ul>
+            <li>Melhoria da <strong>velocidade do site</strong>.</li>
+            <li>Otimização para <strong>dispositivos móveis</strong>.</li>
+            <li>Uso de <strong>HTTPS</strong> para segurança.</li>
+        </ul>
+
+        <h2>📈 Ferramentas Essenciais para SEO</h2>
+        <ul>
+            <li><strong>Google Search Console</strong> – Monitoramento do desempenho do site.</li>
+            <li><strong>Google Analytics</strong> – Análise de tráfego e comportamento.</li>
+            <li><strong>PageSpeed Insights</strong> – Avaliação da velocidade do site.</li>
+        </ul>
+
+        <h2>📚 Fontes e Referências</h2>
+        <p class="references">
+            🔹 Google Search Central - <a href="https://developers.google.com/search/docs" target="_blank">developers.google.com/search/docs</a> <br>
+            🔹 Moz - <a href="https://moz.com/learn/seo" target="_blank">moz.com/learn/seo</a> <br>
+            🔹 Neil Patel - <a href="https://neilpatel.com/blog/" target="_blank">neilpatel.com/blog/</a> <br>
+            🔹 SEMrush Blog - <a href="https://www.semrush.com/blog/" target="_blank">semrush.com/blog/</a>
+        </p>
+
+        <button onclick="printPDF()">📄 Baixar Apostila em PDF</button>
+    </div>
+
+    <script>
+        function printPDF() {
+            window.print();
+        }
+    </script>
+
+</body>
+</html>
