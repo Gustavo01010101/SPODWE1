@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualizador de Imagens de Cachorros</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        img {
+            margin-top: 20px;
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <h1>Visualizador de Imagens de Cachorros</h1>
+    <button onclick="carregarImagem()">Carregar Nova Imagem</button>
+    <div>
+        <img id="imagem-cachorro" src="" alt="Imagem de um cachorro">
+    </div>
+
+    <script>
+        async function carregarImagem() {
+            try {
+                const resposta = await fetch('https://dog.ceo/api/breeds/image/random');
+                const dados = await resposta.json();
+                const imagemCachorro = document.getElementById('imagem-cachorro');
+                imagemCachorro.src = dados.message;
+            } catch (erro) {
+                console.error('Erro ao carregar a imagem:', erro);
+            }
+        }
+        carregarImagem();
+    </script>
+</body>
+</html>
