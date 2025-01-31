@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Resoluções - Flexbox & Grid</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .exercise {
+            margin-bottom: 15px;
+            padding: 10px;
+            background: #e3e3e3;
+            border-radius: 5px;
+        }
+        code {
+            display: block;
+            background: #ddd;
+            padding: 5px;
+            border-radius: 3px;
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Resoluções - Flexbox Froggy e CSS Grid Garden</h1>
+
+    <div class="container">
+        <h2>Flexbox Froggy - Resoluções</h2>
+        <div class="exercise">
+            <strong>Exercício 1:</strong>
+            <code>justify-content: flex-end;</code>
+        </div>
+        <div class="exercise">
+            <strong>Exercício 2:</strong>
+            <code>justify-content: center;</code>
+        </div>
+        <div class="exercise">
+            <strong>Exercício 3:</strong>
+            <code>justify-content: space-around;</code>
+        </div>
+        <div class="exercise">
+            <strong>Exercício 4:</strong>
+            <code>justify-content: space-between;</code>
+        </div>
+        <div class="exercise">
+            <strong>Exercício 5:</strong>
+            <code>align-items: center;</code>
+        </div>
+        <div class="exercise">
+            <strong>Exercício 6:</strong>
+            <code>justify-content: center; align-items: center;</code>
+        </div>
+        <div class="exercise">
+            <strong>Exercício 7:</strong>
+            <code>flex-direction: row-reverse;</code>
+        </div>
+        <div class="exercise">
+            <strong>Exercício 8:</strong>
+            <code>flex-direction: column;</code>
+        </div>
+        <div class="exercise">
+            <strong>Exercício 9:</strong>
+            <code>flex-direction: row-reverse; justify-content: flex-end;</code>
+        </div>
+        <div class="exercise">
+            <strong>Exercício 10:</strong>
+            <code>flex-direction: column; justify-content: flex-end;</code>
+        </div>
+        <div class="exercise">
+            <strong>Exercício 11:</strong>
+            <code>flex-direction: column-reverse; justify-content: space-between;</code>
+        </div>
+        <div class="exercise">
+            <strong>Exercício 12:</strong>
+            <code>flex-wrap: wrap;</code>
+        </div>
+        <div class="exercise">
+            <strong>Exercício 13:</strong>
+            <code>flex-direction: column; flex-wrap: wrap;</code>
+        </div>
+        <div class="exercise">
+            <strong>Exercício 14:</strong>
+            <code>align-content: center;</code>
+        </div>
+        <div class="exercise">
+            <strong>Exercício 15:</strong>
+            <code>align-content: space-between;</code>
+        </div>
+        <div class="exercise">
+            <strong>Exercício 16:</strong>
+            <code>order: 1;</code>
+        </div>
+        <div class="exercise">
+            <strong>Exercício 17:</strong>
+            <code>order: -1;</code>
+        </div>
+        <div class="exercise">
+            <strong>Exercício 18:</strong>
+            <code>align-self: flex-end;</code>
+        </div>
+        <div class="exercise">
+            <strong>Exercício 19:</strong>
+            <code>flex-wrap: wrap; align-content: flex-start;</code>
+        </div>
+        <div class="exercise">
+            <strong>Exercício 20:</strong>
+            <code>flex-grow: 1;</code>
+        </div>
+        <div class="exercise">
+            <strong>Exercício 21:</strong>
+            <code>flex-grow: 2;</code>
+        </div>
+        <div class="exercise">
+            <strong>Exercício 22:</strong>
+            <code>flex-shrink: 0;</code>
+        </div>
+        <div class="exercise">
+            <strong>Exercício 23:</strong>
+            <code>flex-basis: 100px;</code>
+        </div>
+        <div class="exercise">
+            <strong>Exercício 24:</strong>
+            <code>flex: 2 2 75px;</code>
+        </div>
+        <div class="exercise">
+            <strong>Exercício 25:</strong>
+            <code>align-items: flex-start; justify-content: center;</code>
+        </div>
+        <div class="exercise">
+            <strong>Exercício 26:</strong>
+            <code>align-items: stretch; justify-content: space-around; flex-wrap: wrap;</code>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>CSS Grid Garden - Resoluções</h2>
+        <div class="exercise">
+            <strong>Exercício 1:</strong>
+            <code>grid-column-start: 3;</code>
+        </div>
+        <div class="exercise">
+            <strong>Exercício 2:</strong>
+            <code>grid-column-end: span 3;</code>
+        </div>
+        <div class="exercise">
+            <strong>Exercício 3:</strong>
+            <code>grid-row-start: 3;</code>
+        </div>
+        <div class="exercise">
+            <strong>Exercício 4:</strong>
+            <code>grid-template-columns: 50px 50px 50px;</code>
+        </div>
+        <div class="exercise">
+            <strong>Exercício 5:</strong>
+            <code>grid-template-rows: 100px 100px;</code>
+        </div>
+    </div>
+
+</body>
+</html>
