@@ -45,7 +45,7 @@
 <body>
     <button class="toggle-button" onclick="toggleTheme()">Alternar Tema</button>
     <p>Este é um parágrafo de exemplo que demonstra a alternância entre os modos claro e escuro.</p>
-    <img src="https://via.placeholder.com/600x400" alt="Imagem de exemplo">
+    <img src="https://www.petz.com.br/blog/wp-content/uploads/2019/07/vida-de-gato.jpg" alt="Imagem de exemplo">
     <script>
         function toggleTheme() {
             const body = document.body;
